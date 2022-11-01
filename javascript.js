@@ -2,7 +2,7 @@ const container=document.querySelector('#grid');
 //const el=document.createElement('div');
 //el.textContent="hello world";
 //container.appendChild(el);
-for (let i=0; i<100; i++) {
+for (let i=0; i<16; i++) {
     const row=document.createElement('div');
     //row.setAttribute("color", "blue");
     //row.textContent="newline";
@@ -13,7 +13,7 @@ for (let i=0; i<100; i++) {
     row.id="row"+i;
     container.appendChild(row);
     const rowcontainer=document.querySelector("#row"+i);
-    for (let j=0; j<100; j++) {
+    for (let j=0; j<16; j++) {
         const el=document.createElement("div");
         //el.textContent="hello world";
         el.setAttribute("style", "background-color: white; border-style: solid; border-width: 1px; border-color:black; display:flex; flex-grow:1");
